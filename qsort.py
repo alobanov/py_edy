@@ -31,7 +31,7 @@ def qsort(arr: list):
 		return qsort(less)+[pivot]+qsort(greater)
 
 
-arra = [1, 2, 32, 3, 4, 6, 0, 7, 8, 9, 10, 24]
+arr = [1, 2, 32, 3, 4, 6, 0, 7, 8, 9, 10, 24, 57, 248]
 list = qsort(arr)
 print(list)
 result = binary_search(list, 7)
